@@ -1,0 +1,55 @@
+{
+  "sourceOfTruth": "README.md",
+  "localizedReadmes": [
+    {
+      "language": "English",
+      "locale": "en",
+      "path": "README.md",
+      "status": "source"
+    },
+    {
+      "language": "Simplified Chinese",
+      "locale": "zh-CN",
+      "path": "README.zh-CN.md",
+      "status": "active"
+    },
+    {
+      "language": "Japanese",
+      "locale": "ja",
+      "path": "README.ja.md",
+      "status": "active"
+    },
+    {
+      "language": "Korean",
+      "locale": "ko",
+      "path": "README.ko.md",
+      "status": "active"
+    },
+    {
+      "language": "Spanish",
+      "locale": "es",
+      "path": "README.es.md",
+      "status": "active"
+    }
+  ],
+  "requiredSections": [
+    "product_definition",
+    "language_links",
+    "what_is_geoloop",
+    "seo_geo_aso",
+    "why_github",
+    "core_loop",
+    "target_users",
+    "current_status",
+    "roadmap",
+    "safety_boundary",
+    "license"
+  ],
+  "forbidden": [
+    "fake_local_claims",
+    "fake_customers",
+    "fake_benchmarks",
+    "fake_ai_citations",
+    "unsupported_market_leadership_claims"
+  ]
+}
