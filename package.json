@@ -1,0 +1,39 @@
+{
+  "name": "geo-loop",
+  "version": "0.1.0",
+  "description": "GitHub-native SEO, GEO and ASO growth automation loop.",
+  "type": "module",
+  "bin": {
+    "geo-loop": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "ROADMAP.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "scan": "node dist/cli.js scan",
+    "report": "node dist/cli.js report",
+    "check": "npm run build"
+  },
+  "keywords": [
+    "seo",
+    "geo",
+    "generative-engine-optimization",
+    "aso",
+    "github-actions",
+    "growth-engineering",
+    "copilot",
+    "ai-agent"
+  ],
+  "author": "sudotty",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
