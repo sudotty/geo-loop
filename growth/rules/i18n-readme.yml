@@ -1,0 +1,33 @@
+readme_i18n:
+  source_of_truth: README.md
+  localized_files:
+    en: README.md
+    zh-CN: README.zh-CN.md
+    ja: README.ja.md
+    ko: README.ko.md
+    es: README.es.md
+  required_sections:
+    - product_definition
+    - language_links
+    - what_is_geoloop
+    - seo_geo_aso
+    - why_github
+    - core_loop
+    - target_users
+    - current_status
+    - roadmap
+    - safety_boundary
+    - license
+  quality_rules:
+    forbid_fake_local_claims: true
+    forbid_fake_benchmarks: true
+    forbid_fake_customers: true
+    forbid_unsourced_market_claims: true
+    preserve_safety_boundary: true
+    preserve_technical_terms: true
+  next_languages:
+    - fr
+    - de
+    - pt-BR
+    - ar
+    - hi
