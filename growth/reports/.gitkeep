@@ -1,0 +1,3 @@
+# This file keeps the growth/reports directory in Git.
+
+Generated reports should be written here by the CLI or GitHub Actions.
