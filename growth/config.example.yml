@@ -1,0 +1,160 @@
+project:
+  name: GeoLoop
+  domain: https://example.com
+  description: GitHub-native SEO, GEO and ASO growth automation loop.
+  category:
+    - SEO automation
+    - GEO automation
+    - ASO automation
+    - growth engineering
+    - GitHub Actions
+    - AI coding agents
+
+owner:
+  github: sudotty
+  timezone: Asia/Tokyo
+
+target_markets:
+  - us
+  - jp
+  - kr
+  - cn
+  - eu
+
+target_languages:
+  - en
+  - ja
+  - ko
+  - zh
+
+competitors:
+  - name: Ahrefs
+    domain: ahrefs.com
+    type: seo_tool
+  - name: Semrush
+    domain: semrush.com
+    type: seo_tool
+  - name: Surfer SEO
+    domain: surferseo.com
+    type: content_seo
+  - name: AppTweak
+    domain: apptweak.com
+    type: aso_tool
+  - name: Appfigures
+    domain: appfigures.com
+    type: aso_tool
+
+seo:
+  seed_keywords:
+    - GitHub SEO automation
+    - GitHub Actions SEO
+    - GitHub Copilot SEO
+    - SEO pull request bot
+    - SEO issue automation
+    - growth engineering automation
+    - README SEO checker
+    - GitHub Pages SEO
+  page_policy:
+    allow_programmatic_pages: true
+    require_unique_value: true
+    require_human_review: true
+    forbid_thin_pages: true
+    forbid_keyword_stuffing: true
+  technical_checks:
+    - title
+    - meta_description
+    - canonical
+    - open_graph
+    - twitter_card
+    - sitemap
+    - robots
+    - internal_links
+    - broken_links
+    - structured_data
+
+geo:
+  engines:
+    - ChatGPT
+    - Perplexity
+    - Gemini
+    - Claude
+    - Google AI Overview
+  prompts:
+    - What are the best tools for GitHub-native SEO automation?
+    - How can I use GitHub Actions for SEO and GEO workflows?
+    - What is generative engine optimization for developers?
+    - How can AI coding agents create SEO pull requests?
+    - What tools can automate App Store optimization research?
+  metrics:
+    - brand_mentioned
+    - competitor_mentioned
+    - citation_present
+    - answer_position
+    - share_of_answer
+    - sentiment
+    - missing_entity_gap
+  content_policy:
+    require_definition: true
+    require_comparison_table: true
+    require_faq: true
+    require_sources: true
+    require_updated_date: true
+    forbid_fake_claims: true
+
+aso:
+  enabled: true
+  locales:
+    - en-US
+    - ja-JP
+    - ko-KR
+    - zh-Hans
+  outputs:
+    - app_name_candidates
+    - subtitle_candidates
+    - keyword_ideas
+    - screenshot_copy
+    - release_note_drafts
+    - localization_ideas
+  submission_policy:
+    auto_submit: false
+    require_human_review: true
+
+automation:
+  issue_threshold_score: 70
+  auto_pr_threshold_score: 85
+  dry_run_by_default: true
+  require_human_review: true
+  max_issues_per_run: 5
+  max_prs_per_run: 2
+  measurement_windows_days:
+    - 7
+    - 14
+    - 28
+
+risk:
+  forbidden:
+    - fake_reviews
+    - fake_benchmarks
+    - fake_customers
+    - fake_ai_citations
+    - copied_competitor_content
+    - keyword_stuffing
+    - cloaking
+    - spam_comments
+    - bought_stars
+  human_review_required:
+    - pricing
+    - legal_pages
+    - privacy_policy
+    - checkout
+    - authentication
+    - app_store_submission
+    - medical_claims
+    - financial_claims
+    - education_outcome_claims
+
+outputs:
+  reports_dir: growth/reports
+  data_dir: growth/data
+  issue_label: growth
+  pr_label: geo-loop
